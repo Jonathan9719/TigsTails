@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="8" nextobjectid="8">
+ <tileset firstgid="1" source="TigsTails.tsx"/>
+ <objectgroup id="5" name="Coins">
+  <object id="1" gid="23" x="385.123" y="2303.54" width="128" height="128">
+   <properties>
+    <property name="Points" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="5" gid="23" x="785.692" y="2182.16" width="128" height="128">
+   <properties>
+    <property name="Points" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="6" gid="24" x="2042.02" y="1805.87" width="128" height="128">
+   <properties>
+    <property name="Points" type="int" value="5"/>
+   </properties>
+  </object>
+  <object id="7" gid="25" x="1285.7" y="2179.96" width="128" height="128">
+   <properties>
+    <property name="Points" type="int" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="7" name="Don't Touch" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+  </data>
+ </layer>
+ <layer id="3" name="Background" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAoGH5CD0io0Ml8JiGVpZPZAAACHzACC
+  </data>
+ </layer>
+ <layer id="6" name="Foreground" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAowgfxAOwAHQHfXYHUnvQEAfgAAXg==
+  </data>
+ </layer>
+ <layer id="1" name="Platforms" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAroA/iBWBAL5qOi+ZxAzIQFc+CwB5t78GFc5iPbg64Hn3pqYQCXBwIM
+  </data>
+ </layer>
+</map>
